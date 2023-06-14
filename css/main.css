@@ -16,7 +16,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 audio[controls], canvas, video {
   display: inline-block;
-  *display: inline;
+  display: inline;
   zoom: 1
 }
 
@@ -43,7 +43,7 @@ body {
 /* Font-size percentage is based on 16px browser default size */
 body, button, input, select, textarea {
   font: 100% 'Lato', sans-serif;
-  *font-size: 1em;
+  font-size: 1em;
   color: #555
 }
 
@@ -180,18 +180,18 @@ textarea {
 }
 
 legend {
-  *margin-left: -.75em
+  margin-left: -.75em
 }
 
 button, input, select, textarea {
   vertical-align: baseline;
-  *vertical-align: middle
+  vertical-align: middle
 }
 
 /* IE7 and older */
 button, input {
   line-height: normal;
-  *overflow: visible
+  overflow: visible
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
@@ -514,7 +514,7 @@ body {
 .tab {
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   background: #fff;
   border: solid 1px #f1f1f1;
   border-bottom: 0px;
@@ -763,8 +763,8 @@ body {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
-  *display: inline;
-  *zoom: 1;
+  display: inline;
+  zoom: 1;
   position: relative;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
